@@ -26,6 +26,12 @@
     <p>
         {@render children()}
     </p>
+    <p style="text-align: center; font-size: 0.85rem; margin-top: 2rem;">
+      Explore more ZIP code wealth comparisons at
+      <a href="https://blackwealthdata.org/dashboard" target="_blank" style="color: #007052; text-decoration: underline;">
+        Black Wealth Data Center
+      </a>.
+    </p>
 </div>
 
 <style>
