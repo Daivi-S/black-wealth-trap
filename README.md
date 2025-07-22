@@ -1,22 +1,45 @@
-# KWK Scrollytelling template
+ The Zip Code Wealth Trap
 
-This template is a starting point / example of how to create a scrollytelling piece using Svelte and Highcharts! 
+This scrollytelling project explores how **place—not just income—shapes wealth outcomes** for Black Americans. By comparing two ZIP codes (29840, SC and 60458, IL) with nearly identical Black median incomes, we uncover how vastly different rates of homeownership—and therefore wealth—can exist in parallel.
 
-## Demo
-See a live demo of the page [here](https://jasminesamra.github.io/kwk-scrollytelling-template/)!
+ 🧭 What This Project Shows
 
-## Recommended IDE Setup
+- Two ZIP codes, same income: ~$43,000
+- One has a 99% Black homeownership rate; the other, just 4.5%
+- The difference? Not income, but **location-based opportunity**: housing access, historical barriers, policy, and place
 
-[VS Code](https://code.visualstudio.com/) + [Svelte](https://marketplace.visualstudio.com/items?itemName=svelte.svelte-vscode).
+Through visual storytelling, this project asks:
+> What if your ZIP code—not your effort—decided your future?
 
-## How to clone the repo
-On this repo's homepage in GitHub, click the `Use this template` button. Select the option to create a new repository. This will create a new repo under your GitHub account.
 
-Navigate to your new copy of this template in your GitHub profile. 
 
-Clone your new repo locally and `cd` into it. 
+ 📊 Data Source
 
-Run `npm install` and then `npm run dev` to spin up the project locally. Then, start making changes! You can use this repo as a starting point for your own final project or simply as an example. 
+All data was sourced from the [Black Wealth Data Center (BWDC)](https://blackwealthdata.org).  
+Homeownership and income data were retrieved from the BWDC dashboard and datasets.
 
-## Credit
-Repo created using vite (`npm create vite@6`)
+
+
+ 🤖 AI Usage
+
+I used **ChatGPT** as a learning companion to:
+- Understand Svelte scrollytelling layout techniques
+- Debug visibility-triggered animation issues
+- Clarify how to use Chart.js in Svelte
+- Write some structural `README.md` and deployment guidance
+
+All design decisions, content, and structure were created and customized by me.
+
+
+ 🧰 Tools Used
+
+- **Svelte** (frontend framework)
+- **Vite** (build + dev server)
+- **Chart.js** (bar chart visualization)
+- **IntersectionObserver API** (scroll-triggered animation)
+- **GitHub Pages** (deployment)
+
+
+ 🌍 Live Site
+
+➡️ https://daivi-s.github.io/black-wealth-trap
